@@ -13,4 +13,4 @@ DevGit is an interactive Version Control System (VCS) and Content-Addressable Di
 ## Preview
 -----------------------------------------------------------------------------------
 
-![](devg.png
+![](devg.png)
