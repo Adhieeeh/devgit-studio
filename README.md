@@ -5,7 +5,7 @@ DevGit is an interactive Version Control System (VCS) and Content-Addressable Di
 ##  Technical Architecture Overview
 *  **DAG Commit Graph Engine:** Structures commit objects into a Directed Acyclic Graph (DAG), referencing parent SHA hashes to visualize historical branches.
 *  **Branch & HEAD Pointer Management:** Manages dynamic reference pointers mapping branch names (`main`, `feature`) directly to commit hashes.
-* 📦 **Staging Index & Merge Resolver:** Simulates Git's two-stage commit lifecycle and dual-parent merge algorithm.
+*  **Staging Index & Merge Resolver:** Simulates Git's two-stage commit lifecycle and dual-parent merge algorithm.
 
 ## ⚙️ Running Instructions
 1. Install dependencies: `npm install`
