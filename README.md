@@ -1,4 +1,4 @@
-# 🌿 DevGit — Client-Side Version Control System & DAG Commit Graph Engine (React)
+#  DevGit — Client-Side Version Control System & DAG Commit Graph Engine (React)
 
 DevGit is an interactive Version Control System (VCS) and Content-Addressable Directed Acyclic Graph (DAG) commit engine built with React. It implements Git mechanics on the client side: managing Working Directory states, Staging Area indexing (`git add`), immutable commit object generation with SHA hashes (`git commit`), branch reference pointers (`git branch`, `git checkout`), and multi-parent merge resolvers (`git merge`).
 
