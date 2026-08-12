@@ -1,16 +1,12 @@
-# React + Vite
+# 🌿 DevGit — Client-Side Version Control System & DAG Commit Graph Engine (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DevGit is an interactive Version Control System (VCS) and Content-Addressable Directed Acyclic Graph (DAG) commit engine built with React. It implements Git mechanics on the client side: managing Working Directory states, Staging Area indexing (`git add`), immutable commit object generation with SHA hashes (`git commit`), branch reference pointers (`git branch`, `git checkout`), and multi-parent merge resolvers (`git merge`).
 
-Currently, two official plugins are available:
+## ⚡ Technical Architecture Overview
+* 🌳 **DAG Commit Graph Engine:** Structures commit objects into a Directed Acyclic Graph (DAG), referencing parent SHA hashes to visualize historical branches.
+* 🔀 **Branch & HEAD Pointer Management:** Manages dynamic reference pointers mapping branch names (`main`, `feature`) directly to commit hashes.
+* 📦 **Staging Index & Merge Resolver:** Simulates Git's two-stage commit lifecycle and dual-parent merge algorithm.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Running Instructions
+1. Install dependencies: `npm install`
+2. Launch dev server: `npm run dev`
