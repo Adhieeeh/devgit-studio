@@ -7,6 +7,6 @@ DevGit is an interactive Version Control System (VCS) and Content-Addressable Di
 *  **Branch & HEAD Pointer Management:** Manages dynamic reference pointers mapping branch names (`main`, `feature`) directly to commit hashes.
 *  **Staging Index & Merge Resolver:** Simulates Git's two-stage commit lifecycle and dual-parent merge algorithm.
 
-## ⚙️ Running Instructions
+##  Running Instructions
 1. Install dependencies: `npm install`
 2. Launch dev server: `npm run dev`
