@@ -9,4 +9,4 @@ DevGit is an interactive Version Control System (VCS) and Content-Addressable Di
 
 ##  Running Instructions
 1. Install dependencies: `npm install`
-2. Launch dev server: `npm run dev`
+
